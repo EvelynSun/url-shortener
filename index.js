@@ -16,7 +16,7 @@ mongoose.connect(app.get('db'), function(err, db) {
     if (err) {
         console.error('Database connection failed');
     } else {
-        console.log('Database connected!!')
+        console.log('Database connected to '+config.database)
     }
 });
 
